@@ -22,7 +22,6 @@ li {
 }
 
 textarea {
-  textarea {
   width: 100%;
   display: block;
   height: 150px;
@@ -32,5 +31,4 @@ textarea {
   border-radius: 4px;
   background-color: #f8f8f8;
   resize: both;
-}
 }
