@@ -1,3 +1,4 @@
+$(document).ready(function(){
 $(function() {
   $("#select_all_btn").click(function() {
     $(".email").select();
@@ -48,3 +49,4 @@ $("input").change(function() {
   }
   $(".email").text(etxt);
 });
+}
