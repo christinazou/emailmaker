@@ -1,0 +1,27 @@
+.greeting div,
+.reason div,
+.requesting div,
+.ending div,
+.closing div {
+  display: none;
+}
+
+h3,
+h4,
+ul {
+  margin: 2px;
+  padding: 4px;
+}
+
+h3:hover {
+  background-color: lightgrey;
+}
+
+li {
+  list-style-type: none;
+}
+
+textarea {
+  width: 100%;
+  rows: 10;
+}
