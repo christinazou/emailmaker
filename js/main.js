@@ -49,4 +49,4 @@ $("input").change(function() {
   }
   $(".email").text(etxt);
 });
-}
+});
