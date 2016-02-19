@@ -33,7 +33,12 @@ $(function() {
 $("input").change(function() {
   var etxt = ""
   if ($("input[name=1]:checked").val() !== undefined) {
-    etxt = etxt + $("input[name=1]:checked").val() + "\n\n"
+    if($("input[name=1]").class=="formal"){
+       etxt = etxt + $("input[name=1]:checked").val()+ $(".to") + "\n\n"
+    }else{
+       etxt = etxt + $("input[name=1]:checked").val()+ "2" + "\n\n"
+    }
+   
   }
   if ($("input[name=2]:checked").val() !== undefined) {
     etxt = etxt + $("input[name=2]:checked").val()
