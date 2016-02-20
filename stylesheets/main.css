@@ -30,6 +30,7 @@ textarea {
 .greeting div,
 .reason div,
 .requesting div,
+.offering div,
 .ending div,
 .closing div {
   display: none;
