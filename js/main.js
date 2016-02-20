@@ -32,13 +32,12 @@ $(function() {
 
 $("input").change(function() {
   var etxt = ""
-  if ($("input[name=1]:checked").val() !== undefined) {
+ if ($("input[name=1]:checked").val() !== undefined) {
     if($("input[name=1]:checked").val()==="Hi"){
        etxt = etxt + $("input[name=1]:checked").val()+ $(".to") + ",\n\n"
     }else{
        etxt = etxt + $("input[name=1]:checked").val()+ "2" + "\n\n"
     }
-   
   }
   if ($("input[name=2]:checked").val() !== undefined) {
     etxt = etxt + $("input[name=2]:checked").val()
@@ -49,7 +48,10 @@ $("input").change(function() {
   if ($("input[name=4]:checked").val() !== undefined) {
     etxt = etxt + $("input[name=4]:checked").val()
   }
-  if ($("input[name=5]:checked").val() !== undefined) {
+    if ($("input[name=5]:checked").val() !== undefined) {
+    etxt = etxt + $("input[name=4]:checked").val()
+  }
+  if ($("input[name=6]:checked").val() !== undefined) {
     etxt = etxt + "\n\n" + $("input[name=5]:checked").val()
   }
   $(".email").text(etxt);
