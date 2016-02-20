@@ -40,11 +40,10 @@ $("input").change(function() {
  if ($("input[name=1]:checked").val() !== undefined) {
     if($("input[name=1]:checked").val()==="Hi"||$("input[name=1]:checked").val()==="Hello"){
       if($(".to").val()===null||$(".to").val()===""){
-        etxt = etxt + $("input[name=1]:checked:first-child").val()+ ",\n\n"
+        etxt = etxt + $("input[name=1]:checked").val()+ ",\n\n"
       }else{
         etxt = etxt + $("input[name=1]:checked").val()+" "+ $(".to").val() + ",\n\n";
       }
-       
     }else{
        etxt = etxt + $("input[name=1]:checked").val() + "\n\n"
     }
