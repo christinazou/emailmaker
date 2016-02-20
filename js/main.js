@@ -39,7 +39,7 @@ $("input").change(function() {
   var etxt = ""
  if ($("input[name=1]:checked").val() !== undefined) {
     if($("input[name=1]:checked").val()==="Hi"||$("input[name=1]:checked").val()==="Hello"){
-       etxt = etxt + $("input[name=1]:checked").val()+ $(".to").val() + ",\n\n"
+       etxt = etxt + $("input[name=1]:checked").val()+" "+ $(".to").val() + ",\n\n"
     }else{
        etxt = etxt + $("input[name=1]:checked").val()+ "2" + "\n\n"
     }
