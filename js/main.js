@@ -20,6 +20,11 @@ $(function() {
   });
 });
 $(function() {
+  $(".offering h3").bind("click", function() {
+    $(".offering div").toggle("slow");
+  });
+});
+$(function() {
   $(".ending h3").bind("click", function() {
     $(".ending div").toggle("slow");
   });
