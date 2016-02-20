@@ -40,13 +40,13 @@ $("input").change(function() {
  if ($("input[name=1]:checked").val() !== undefined) {
     if($("input[name=1]:checked").val()==="Hi"||$("input[name=1]:checked").val()==="Hello"){
       if($(".to").val()===null||$(".to").val()===""){
-        etxt = etxt + $("input[name=1]:checked").innerHTML()+ ",\n\n"
+        etxt = etxt + $("input[name=1]:checked":firstChild).data+ ",\n\n"
       }else{
         etxt = etxt + $("input[name=1]:checked").val()+" "+ $(".to").val() + ",\n\n";
       }
        
     }else{
-       etxt = etxt + $("input[name=1]:checked").val()+ "2" + "\n\n"
+       etxt = etxt + $("input[name=1]:checked").val() + "\n\n"
     }
   }
   if ($("input[name=2]:checked").val() !== undefined) {
