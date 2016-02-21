@@ -1,4 +1,4 @@
-[[{
+{"greetings":[{
             "cname": "GREETINGS"
         }, {
             "radioname": "5",
@@ -41,7 +41,7 @@
             "showtext": "Dear Mum,",
             "ctype": "informal"
         }]
-, [{
+, "reason":[{
             "cname": "REASON FOR WRITING / REPLYING"
         }, {
             "radioname": "2",
@@ -84,7 +84,7 @@
             "showtext": "I wanted to let you know that / tell you about / ask you if…",
             "ctype": "informal"
         }]
-, [{
+, "request":[{
                 "cname": "MAKING A REQUEST / ASKING FOR INFORMATION"
             },
 
@@ -135,7 +135,7 @@
                 "ctype": "informal"
             }
         ]
-, [{
+, "offer":[{
                 "cname": "OFFERING HELP / GIVING INFORMATION"
             },
 
@@ -207,7 +207,7 @@
             }
         ]
 
-, [{
+, "complaint":[{
                 "cname": "COMPLAINING"
             },
 
@@ -248,7 +248,7 @@
                 "ctype": "informal"
             }
         ]
-, [{
+, "apology":[{
                 "cname": "APOLOGIZING"
             },
 
@@ -299,7 +299,7 @@
                 "ctype": "informal"
             }
         ]
-, [{
+, "attachment":[{
                 "cname": "ATTACHING FILES"
             },
 
@@ -345,7 +345,7 @@
                 "ctype": "informal"
             }
         ]
-, [{
+, "ending":[{
                 "cname": "ENDING"
             },
 
@@ -371,7 +371,7 @@
                 "ctype": "informal"
             }
         ]
-, [{
+, "closing":[{
                 "cname": "CLOSING FORMULA"
             },
 
@@ -428,4 +428,4 @@
 
             }
         ]
-    }]
+    }
