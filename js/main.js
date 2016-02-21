@@ -2,9 +2,12 @@ $(document).ready(function(){
   $.getJSON("js/maindata.json",function json1 (data) {
   var $jsondiv =$(".test");
   var strHtml="";
-
+$.each(data,function(index,value){
+  strHtml=strHtml+"index"+index+"value"+value;
+}
+  )
   $jsondiv.empty();
-  $jsondiv.html(data.toString());
+  $jsondiv.html(strHtml);
 });
 $(function() {
   $("#select_all_btn").click(function() {
