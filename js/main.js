@@ -6,10 +6,12 @@ $.each(data,function(index,catagoryarray){
   strHtml=strHtml+"index: "+index;
   $.each(catagoryarray,function(i,sentenceobject) {
     strHtml=strHtml+"index: "+i+"value: "+sentenceobject; 
+    $.each(sentenceobject,function(j,value) {
+    strHtml=strHtml+"index: "+j+"value: "+value;
     // body...
+    })
   })
-}
-  )
+})
   $jsondiv.empty();
   $jsondiv.html(strHtml);
 });
