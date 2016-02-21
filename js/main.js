@@ -1,4 +1,11 @@
 $(document).ready(function(){
+  $.getJSON("js/maindata.json",function json1 (data) {
+  var $jsondiv =$(".test");
+  var strHtml="";
+
+  $jsondiv.empty();
+  $jsondiv.html(data.toString());
+});
 $(function() {
   $("#select_all_btn").click(function() {
     $(".email").select();
