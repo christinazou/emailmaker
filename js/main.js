@@ -2,8 +2,12 @@ $(document).ready(function(){
   $.getJSON("js/maindata.json",function json1 (data) {
   var $jsondiv =$(".test");
   var strHtml="";
-$.each(data,function(index,value){
-  strHtml=strHtml+"index"+index+"value"+value;
+$.each(data,function(index,catagoryarray){
+  strHtml=strHtml+"index: "+index;
+  $.each(catagoryarray,function(i,sentenceobject) {
+    strHtml=strHtml+"index: "+i+"value: "+sentenceobject; 
+    // body...
+  })
 }
   )
   $jsondiv.empty();
