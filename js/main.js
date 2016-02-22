@@ -4,7 +4,7 @@ $(document).ready(function() {
         var strHtml = "";
 
             $.each(data, function(i1, catagory) {
-                strHtml = strHtml + "<div class=" + "'" + index + "'>";
+                strHtml = strHtml + "<div class=" + "'" + i1 + "'>";
                 for (var i = 0; i <= catagory.length - 1; i++) {
                     // strHtml = strHtml + "index: " + i + "value: " + catagory[i];
                     if (i = 0) {
