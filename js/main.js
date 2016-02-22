@@ -5,12 +5,13 @@ $(document).ready(function() {
         $.each(data, function(i1, catagory) {
             items.push("<div class=" + "'" + i1 + "'>");
             for (var i = 0; i <= catagory.length - 1; i++) {
+                x=catagory[i];
                 // strHtml = strHtml + "index: " + i + "value: " + catagory[i];
                 if (i = 0) {
-                    items.push("<h3>" + catagory[i].cname + "</h3>");
+                    items.push("<h3>" + x.cname + "</h3>");
                     items.push("<ul>");
                 } else if (i < catagory.length - 1) {
-                    items.push("<li>" + "<input type='radio' name='" + catagory[i].radioname + " id=" + catagory[i].val + " catagory[i]=" + catagory[i].val + " class='" + catagory[i].ctype + "' /><label for=" + catagory[i].val + ">" + catagory[i].showtext + "</label>" + "</li>");
+                    items.push("<li>" + "<input type='radio' name='" + x.radioname + " id=" + x.val + " value=" + x.val + " class='" + x.ctype + "' /><label for=" + x.val + ">" + x.showtext + "</label>" + "</li>");
                     //  strHtml = strHtml + "index: " + j + "value: " + value;
                     // body...
                 } else {
@@ -25,8 +26,6 @@ $(document).ready(function() {
             html: items.join("")
         }).appendTo($jsondiv);
     });
-
-
 $(function() {
     $("#select_all_btn").click(function() {
         $(".email").select();
