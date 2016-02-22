@@ -5,20 +5,19 @@ $(document).ready(function() {
         $.each(data, function(index, catagoryarray) {
             $.each(data, function(i1, catagory) {
                 strHtml = strHtml + "<div class=" + "'" + index + "'>";
-                $.each(catagoryarray, function(i2, sentenceobject) {
-                    // strHtml = strHtml + "index: " + i + "value: " + sentenceobject;
-                    if (typeof sentenceobject == "string") {
-                        strHtml = strHtml + "<h3>" + sentenceobject + "</h3>";
-                    } else {
+                for (var i = 0; i >= catagory.length - 1; i++) {
+                    // strHtml = strHtml + "index: " + i + "value: " + catagory[i];
+                    if (i = 0) {
+                        strHtml = strHtml + "<h3>" + catagory[i].cname + "</h3>";
                         strHtml = strHtml + "<ul>";
-                        $.each(sentenceobject, function(j, value) {
-                            strHtml = strHtml + "<li>" + "<input type='radio' name='" + value.radioname + " id=" + j + " value=" + j + " class='" + value.ctype + "' /><label for=" + j + ">" + value.showtext + "</label>" + "</li>";
-                            //  strHtml = strHtml + "index: " + j + "value: " + value;
-                            // body...
-                        })
+                    } else if (i < catagory.length - 1) {
+                        strHtml = strHtml + "<li>" + "<input type='radio' name='" + catagory[i].radioname + " id=" + j + " catagory[i]=" + j + " class='" + catagory[i].ctype + "' /><label for=" + j + ">" + catagory[i].showtext + "</label>" + "</li>";
+                        //  strHtml = strHtml + "index: " + j + "value: " + value;
+                        // body...
+                    } else {
                         strHtml = strHtml + "</ul>";
-                    }
-                });
+                    };
+                };
             });
             strHtml = strHtml + "</div>";
         });
