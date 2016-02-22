@@ -1,29 +1,40 @@
 $(document).ready(function() {
-    $.getJSON("js/maindata.json", function json1(data) {
+
+ 
+
+
+
+ $.getJSON("js/maindata.json", function json1(data) {
         var $jsondiv = $(".test");
-        var strHtml = "";
+var items = [];
+       
 
             $.each(data, function(i1, catagory) {
-                strHtml = strHtml + "<div class=" + "'" + i1 + "'>";
+                items.push( "<div class=" + "'" + i1 + "'>");
                 for (var i = 0; i <= catagory.length - 1; i++) {
                     // strHtml = strHtml + "index: " + i + "value: " + catagory[i];
                     if (i = 0) {
-                        strHtml = strHtml + "<h3>" + catagory[i].cname + "</h3>";
-                        strHtml = strHtml + "<ul>";
+                     items.push( "<h3>" + catagory[i].cname + "</h3>");
+                    items.push(  "<ul>");
                     } else if (i < catagory.length - 1) {
-                        strHtml = strHtml + "<li>" + "<input type='radio' name='" + catagory[i].radioname + " id=" + catagory[i].val + " catagory[i]=" + catagory[i].val + " class='" + catagory[i].ctype + "' /><label for=" + catagory[i].val + ">" + catagory[i].showtext + "</label>" + "</li>";
+                       items.push(  "<li>" + "<input type='radio' name='" + catagory[i].radioname + " id=" + catagory[i].val + " catagory[i]=" + catagory[i].val + " class='" + catagory[i].ctype + "' /><label for=" + catagory[i].val + ">" + catagory[i].showtext + "</label>" + "</li>");
                         //  strHtml = strHtml + "index: " + j + "value: " + value;
                         // body...
                     } else {
-                        strHtml = strHtml + "</ul>";
+                      items.push( "</ul>");
                     };
                 };
-                strHtml = strHtml + "</div>";
+                items.push(  "</div>")
             });
             
     
         $jsondiv.empty();
-        $jsondiv.html(strHtml);
+  $( "<ul/>", {
+    "class": "my-new-list",
+    html: items.join( "" )
+  }).appendTo( $jsondiv );
+});
+        
     });
     $(function() {
         $("#select_all_btn").click(function() {
