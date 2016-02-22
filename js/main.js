@@ -6,7 +6,7 @@ $(document).ready(function() {
             strHtml = strHtml + "index: " + index;
             $.each(catagoryarray, function(i, sentenceobject) {
                 strHtml = strHtml + "index: " + i + "value: " + sentenceobject;
-                if (typeof sentenceobject !== "String") {
+                if (typeof sentenceobject != "string") {
                     $.each(sentenceobject, function(j, value) {
                         strHtml = strHtml + "index: " + j + "value: " + value;
 
