@@ -4,6 +4,11 @@ $(document).ready(function() {
         var items = [];
         $.each(data, function(i1, catagory) {
             items.push("<div class=" + "'" + i1 + "'>");
+            $(function() {
+        $("."+li +" h3").bind("click", function() {
+            $("."+li +" ul").toggle("slow");
+        });
+    });
             for (var i = 0; i <= catagory.length - 1; i++) {
                 var x = catagory[i];
                 // strHtml = strHtml + "index: " + i + "value: " + catagory[i];
@@ -15,6 +20,7 @@ $(document).ready(function() {
                     //  strHtml = strHtml + "index: " + j + "value: " + value;
                     // body...
                 } else {
+                     items.push("<li>" + "<input type='radio' name='" + x.radioname + " id=" + x.val + " value=" + x.val + " class='" + x.ctype + "' /><label for=" + x.val + ">" + x.showtext + "</label>" + "</li>");
                     items.push("</ul>");
                 };
             };
@@ -26,6 +32,9 @@ $(document).ready(function() {
             html: items.join("")
         }).appendTo($jsondiv);
     });
+
+    
+    
     $(function() {
         $("#select_all_btn").click(function() {
             $(".email").select();
