@@ -3,7 +3,7 @@ $(document).ready(function() {
         var $jsondiv = $(".test");
         var strHtml = "";
         $.each(data, function(index, catagoryarray) {
-            $.each(data, function(i1, catagoryarray) {
+            $.each(data, function(i1, catagory) {
                 strHtml = strHtml + "<div class=" + "'" + index + "'>";
                 $.each(catagoryarray, function(i2, sentenceobject) {
                     // strHtml = strHtml + "index: " + i + "value: " + sentenceobject;
