@@ -1,415 +1,431 @@
-{
-    "greetings": {
-        "cname": "GREETINGS",
-        "Dear Sir/ Madam,": {
+{"greetings":[{
+            "cname": "GREETINGS"
+        }, {
             "radioname": "5",
+            "val": "Dear Sir/ Madam,",
             "showtext": "Dear Sir/ Madam,",
             "ctype": "formal"
-        },
-        "Dear Sir or Madam": {
+        }, {
             "radioname": "5",
+            "val": "Dear Sir or Madam",
             "showtext": "Dear Sir or Madam,",
             "ctype": "formal"
-        },
-        "To whom it may concern:": {
+        }, {
             "radioname": "5",
+            "val": "To whom it may concern:",
             "showtext": "To whom it may concern: (especially AmE)",
             "ctype": "formal"
-        },
-        "Dear Mr/ Ms Jones,": {
+        }, {
             "radioname": "5",
+            "val": "Dear Mr/ Ms Jones,",
             "showtext": "Dear Mr/ Ms Jones,",
             "ctype": "formal"
-        },
-        "Dear Dr Smith,": {
+        }, {
             "radioname": "5",
+            "val": "Dear Dr Smith,",
             "showtext": "Dear Dr Smith,",
             "ctype": "formal"
-        },
-        "Hi": {
+        }, {
             "radioname": "5",
+            "val": "Hi",
             "showtext": "Hi Dennis,",
             "ctype": "informal"
-        },
-        "Hello": {
+        }, {
             "radioname": "5",
+            "val": "Hello",
             "showtext": "Hello Claire,",
             "ctype": "informal"
-        },
-        "Dear Mum,": {
+        }, {
             "radioname": "5",
+            "val": "Dear Mum,",
             "showtext": "Dear Mum,",
             "ctype": "informal"
-        },
-        "reason": {
+        }]
+, "reason":[{
             "cname": "REASON FOR WRITING / REPLYING"
-        },
-        "I am writing to make a reservation/ to apply for the position of…/ to confirm my booking/ to ask for further information about …": {
+        }, {
             "radioname": "2",
+            "val": "I am writing to make a reservation/ to apply for the position of…/ to confirm my booking/ to ask for further information about …",
             "showtext": "I am writing to make a reservation/ to apply for the position of…/ to confirm my booking/ to ask for further information about …",
             "ctype": "formal"
-        },
-        "I am writing with regard  to the sale of …/ to the complaint you made on 29th February": {
+        }, {
             "radioname": "2",
+            "val": "I am writing with regard  to the sale of …/ to the complaint you made on 29th February",
             "showtext": "I am writing with regard  to the sale of …/ to the complaint you made on 29th February",
             "ctype": "formal"
-        },
-        "Thank you for your e-mail of 29th February regarding the sale of… / concerning the conference in Brussels.": {
+        }, {
             "radioname": "2",
+            "val": "Thank you for your e-mail of 29th February regarding the sale of… / concerning the conference in Brussels.",
             "showtext": "Thank you for your e-mail of 29th February regarding the sale of… / concerning the conference in Brussels.",
             "ctype": "formal"
-        },
-        "With reference to our telephone conversation on Friday, I would like to let you know that…": {
+        }, {
             "radioname": "2",
+            "val": "With reference to our telephone conversation on Friday, I would like to let you know that…",
             "showtext": "With reference to our telephone conversation on Friday, I would like to let you know that…",
             "ctype": "formal"
-        },
-        "Just a quick note to invite you to…/ to tell you that…": {
+        }, {
             "radioname": "2",
+            "val": "Just a quick note to invite you to…/ to tell you that…",
             "showtext": "Just a quick note to invite you to…/ to tell you that…",
             "ctype": "informal"
-        },
-        "This is to invite you to join us for...": {
+        }, {
             "radioname": "2",
+            "val": "This is to invite you to join us for...",
             "showtext": "This is to invite you to join us for...",
             "ctype": "informal"
-        },
-        "Thanks for your e-mail, it was wonderful/great to hear from you.": {
+        }, {
             "radioname": "2",
+            "val": "Thanks for your e-mail, it was wonderful/great to hear from you.",
             "showtext": "Thanks for your e-mail, it was wonderful/great to hear from you.",
             "ctype": "informal"
-        },
-        "I wanted to let you know that / tell you about / ask you if…": {
+        }, {
             "radioname": "2",
+            "val": "I wanted to let you know that / tell you about / ask you if…",
             "showtext": "I wanted to let you know that / tell you about / ask you if…",
             "ctype": "informal"
-        }
-    },
-    "request": {
-        "cname": "MAKING A REQUEST / ASKING FOR INFORMATION",
-        "Could you please let me know if you can attend … / if you are available for a meeting on 12th December?": {
-            "radioname": "3",
-            "showtext": "Could you please let me know if you can attend … / if you are available for a meeting on 12th December?",
-            "ctype": "formal"
-        },
-        "I would appreciate it if you could please send me a brochure/ if you could please reply within two days.": {
-            "radioname": "3",
-            "showtext": "I would appreciate it if you could please send me a brochure/ if you could please reply within two days.",
-            "ctype": "formal"
-        },
-        "Could you possibly arrange a meeting with the Logistics Manager?": {
-            "radioname": "3",
-            "showtext": "Could you possibly arrange a meeting with the Logistics Manager?",
-            "ctype": "formal"
-        },
-        "I would also like to know if there are any swimming pools in your area.": {
-            "radioname": "3",
-            "showtext": "I would also like to know if there are any swimming pools in your area.",
-            "ctype": "formal"
-        },
-        "Please let me know how much the tickets cost.": {
-            "radioname": "3",
-            "showtext": "Please let me know how much the tickets cost.",
-            "ctype": "formal"
-        },
-        "I was wondering if you could come and see me sometime next week.": {
-            "radioname": "3",
-            "showtext": "I was wondering if you could come and see me sometime next week.",
-            "ctype": "informal"
-        },
-        "Would you mind coming early to help me clear up the place?": {
-            "radioname": "3",
-            "showtext": "Would you mind coming early to help me clear up the place?",
-            "ctype": "informal"
-        },
-        "Do you think you could call Jerry for me?": {
-            "radioname": "3",
-            "showtext": "Do you think you could call Jerry for me?",
-            "ctype": "informal"
-        },
-        "Can you call me/ get back to me asap? (as soon as possible)": {
-            "radioname": "3",
-            "showtext": "Can you call me/ get back to me asap? (as soon as possible)",
-            "ctype": "informal"
-        }
-    },
-    "offer": {
-        "cname": "OFFERING HELP / GIVING INFORMATION",
+        }]
+, "request":[{
+                "cname": "MAKING A REQUEST / ASKING FOR INFORMATION"
+            },
 
-        "We are happy to let you know that your article has been selected for publication.": {
-            "radioname": "4",
-            "showtext": "We are happy to let you know that your article has been selected for publication.",
-            "ctype": "formal"
-        },
-        "I am glad to inform you that we will be holding our annual conference in Brussels on 20 September 2014.": {
-            "radioname": "4",
-            "showtext": "I am glad to inform you that we will be holding our annual conference in Brussels on 20 September 2014.",
-            "ctype": "formal"
-        },
-        "We regret to inform you that the show has been cancelled due to bad weather conditions.": {
-            "radioname": "4",
-            "showtext": "We regret to inform you that the show has been cancelled due to bad weather conditions.",
-            "ctype": "formal"
-        },
-        "We are willing to arrange another meeting with the CEO.": {
-            "radioname": "4",
-            "showtext": "We are willing to arrange another meeting with the CEO.",
-            "ctype": "formal"
-        },
-        "We would be glad to send you another statement if necessary.": {
-            "radioname": "4",
-            "showtext": "We would be glad to send you another statement if necessary.",
-            "ctype": "formal"
-        },
-        "Please do let me know if I can be of further assistance.": {
-            "radioname": "4",
-            "showtext": "Please do let me know if I can be of further assistance.",
-            "ctype": "formal"
-        },
-        "Should you need any further information/assistance, please do not hesitate to contact us.": {
-            "radioname": "4",
-            "showtext": "Should you need any further information/assistance, please do not hesitate to contact us.",
-            "ctype": "formal"
-        },
-        "I’m sorry, but I can’t make it tomorrow. (= I can’t come tomorrow.)": {
-            "radioname": "4",
-            "showtext": "I’m sorry, but I can’t make it tomorrow. (= I can’t come tomorrow.)",
-            "ctype": "informal"
-        },
-        "I’m sorry, but I can’t make it tomorrow. (= I can’t come tomorrow.)": {
-            "radioname": "4",
-            "showtext": "I’m sorry, but I can’t make it tomorrow. (= I can’t come tomorrow.)",
-            "ctype": "informal"
-        },
-        "I’m happy to tell you that John and I are getting married next month.": {
-            "radioname": "4",
-            "showtext": "I’m happy to tell you that John and I are getting married next month.",
-            "ctype": "informal"
-        },
-        "Would you like me to come early and help you clear up the place?": {
-            "radioname": "4",
-            "showtext": "Would you like me to come early and help you clear up the place?",
-            "ctype": "informal"
-        },
-        "How about I come and help you out?": {
-            "radioname": "4",
-            "showtext": "How about I come and help you out?",
-            "ctype": "informal"
-        },
-        "Do you need a hand with moving the furniture?": {
-            "radioname": "4",
-            "showtext": "Do you need a hand with moving the furniture?",
-            "ctype": "informal"
-        }
-    },
-    "complaint": {
-        "cname": "COMPLAINING",
+            {
+                "radioname": "3",
+                "val": "Could you please let me know if you can attend … / if you are available for a meeting on 12th December?",
+                "showtext": "Could you please let me know if you can attend … / if you are available for a meeting on 12th December?",
+                "ctype": "formal"
+            }, {
+                "radioname": "3",
+                "val": "I would appreciate it if you could please send me a brochure/ if you could please reply within two days.",
+                "showtext": "I would appreciate it if you could please send me a brochure/ if you could please reply within two days.",
+                "ctype": "formal"
+            }, {
+                "radioname": "3",
+                "val": "Could you possibly arrange a meeting with the Logistics Manager?",
+                "showtext": "Could you possibly arrange a meeting with the Logistics Manager?",
+                "ctype": "formal"
+            }, {
+                "radioname": "3",
+                "val": "I would also like to know if there are any swimming pools in your area.",
+                "showtext": "I would also like to know if there are any swimming pools in your area.",
+                "ctype": "formal"
+            }, {
+                "radioname": "3",
+                "val": "Please let me know how much the tickets cost.",
+                "showtext": "Please let me know how much the tickets cost.",
+                "ctype": "formal"
+            }, {
+                "radioname": "3",
+                "val": "I was wondering if you could come and see me sometime next week.",
+                "showtext": "I was wondering if you could come and see me sometime next week.",
+                "ctype": "informal"
+            }, {
+                "radioname": "3",
+                "val": "Would you mind coming early to help me clear up the place?",
+                "showtext": "Would you mind coming early to help me clear up the place?",
+                "ctype": "informal"
+            }, {
+                "radioname": "3",
+                "val": "Do you think you could call Jerry for me?",
+                "showtext": "Do you think you could call Jerry for me?",
+                "ctype": "informal"
+            }, {
+                "radioname": "3",
+                "val": "Can you call me/ get back to me asap? (as soon as possible)",
+                "showtext": "Can you call me/ get back to me asap? (as soon as possible)",
+                "ctype": "informal"
+            }
+        ]
+, "offer":[{
+                "cname": "OFFERING HELP / GIVING INFORMATION"
+            },
 
-        "I am writing to express my dissatisfaction with… / to complain about…": {
-            "radioname": "5",
-            "showtext": "I am writing to express my dissatisfaction with… / to complain about…",
-            "ctype": "formal"
-        },
-        "I regret to say that I was not completely satisfied with the room you provided us.": {
-            "radioname": "5",
-            "showtext": "I regret to say that I was not completely satisfied with the room you provided us.",
-            "ctype": "formal"
-        },
-        "We regret to inform you that your payment is considerably overdue.": {
-            "radioname": "5",
-            "showtext": "We regret to inform you that your payment is considerably overdue.",
-            "ctype": "formal"
-        },
-        "I would like to receive a full refund and compensation for the damages.": {
-            "radioname": "5",
-            "showtext": "I would like to receive a full refund and compensation for the damages.",
-            "ctype": "formal"
-        },
-        "I am interested to hear how your company can compensate us for the distress we suffered.": {
-            "radioname": "5",
-            "showtext": "I am interested to hear how your company can compensate us for the distress we suffered.",
-            "ctype": "formal"
-        },
-        "I’m sorry to say that you’re late with the payments.": {
-            "radioname": "5",
-            "showtext": "I’m sorry to say that you’re late with the payments.",
-            "ctype": "informal"
-        },
-        "I hope you won’t mind me saying that the place you’d recommended to us wasn’t as nice as we’d expected.": {
-            "radioname": "5",
-            "showtext": "I hope you won’t mind me saying that the place you’d recommended to us wasn’t as nice as we’d expected.",
-            "ctype": "informal"
-        }
-    },
-    "apology": {
-        "cname": "APOLOGIZING",
+            {
+                "radioname": "4",
+                "val": "We are happy to let you know that your article has been selected for publication.",
+                "showtext": "We are happy to let you know that your article has been selected for publication.",
+                "ctype": "formal"
+            }, {
+                "radioname": "4",
+                "val": "I am glad to inform you that we will be holding our annual conference in Brussels on 20 September 2014.",
+                "showtext": "I am glad to inform you that we will be holding our annual conference in Brussels on 20 September 2014.",
+                "ctype": "formal"
+            }, {
+                "radioname": "4",
+                "val": "We regret to inform you that the show has been cancelled due to bad weather conditions.",
+                "showtext": "We regret to inform you that the show has been cancelled due to bad weather conditions.",
+                "ctype": "formal"
+            }, {
+                "radioname": "4",
+                "val": "We are willing to arrange another meeting with the CEO.",
+                "showtext": "We are willing to arrange another meeting with the CEO.",
+                "ctype": "formal"
+            }, {
+                "radioname": "4",
+                "val": "We would be glad to send you another statement if necessary.",
+                "showtext": "We would be glad to send you another statement if necessary.",
+                "ctype": "formal"
+            }, {
+                "radioname": "4",
+                "val": "Please do let me know if I can be of further assistance.",
+                "showtext": "Please do let me know if I can be of further assistance.",
+                "ctype": "formal"
+            }, {
+                "radioname": "4",
+                "val": "Should you need any further information/assistance, please do not hesitate to contact us.",
+                "showtext": "Should you need any further information/assistance, please do not hesitate to contact us.",
+                "ctype": "formal"
+            }, {
+                "radioname": "4",
+                "val": "I’m sorry, but I can’t make it tomorrow. (= I can’t come tomorrow.)",
+                "showtext": "I’m sorry, but I can’t make it tomorrow. (= I can’t come tomorrow.)",
+                "ctype": "informal"
+            }, {
+                "radioname": "4",
+                "val": "I’m sorry, but I can’t make it tomorrow. (= I can’t come tomorrow.)",
+                "showtext": "I’m sorry, but I can’t make it tomorrow. (= I can’t come tomorrow.)",
+                "ctype": "informal"
+            }, {
+                "radioname": "4",
+                "val": "I’m happy to tell you that John and I are getting married next month.",
+                "showtext": "I’m happy to tell you that John and I are getting married next month.",
+                "ctype": "informal"
+            }, {
+                "radioname": "4",
+                "val": "Would you like me to come early and help you clear up the place?",
+                "showtext": "Would you like me to come early and help you clear up the place?",
+                "ctype": "informal"
+            }, {
+                "radioname": "4",
+                "val": "How about I come and help you out?",
+                "showtext": "How about I come and help you out?",
+                "ctype": "informal"
+            }, {
+                "radioname": "4",
+                "val": "Do you need a hand with moving the furniture?",
+                "showtext": "Do you need a hand with moving the furniture?",
+                "ctype": "informal"
+            }
+        ]
 
-        "We would like to apologize for any inconvenience caused.": {
-            "radioname": "6",
-            "showtext": "We would like to apologize for any inconvenience caused.",
-            "ctype": "formal"
-        },
-        "Please accept our apologies for the delay.": {
-            "radioname": "6",
-            "showtext": "Please accept our apologies for the delay.",
-            "ctype": "formal"
-        },
-        "Please let us know what we can do to compensate you for the damages caused.": {
-            "radioname": "6",
-            "showtext": "Please let us know what we can do to compensate you for the damages caused.",
-            "ctype": "formal"
-        },
-        "We will make sure that this will not happen again in the  future.": {
-            "radioname": "6",
-            "showtext": "We will make sure that this will not happen again in the  future.",
-            "ctype": "formal"
-        },
-        "I am afraid I will not be able to attend the conference.": {
-            "radioname": "6",
-            "showtext": "I am afraid I will not be able to attend the conference.",
-            "ctype": "formal"
-        },
-        "I’m sorry for the trouble I caused.": {
-            "radioname": "6",
-            "showtext": "I’m sorry for the trouble I caused.",
-            "ctype": "informal"
-        },
-        "I apologize for the delay.": {
-            "radioname": "6",
-            "showtext": "I apologize for the delay.",
-            "ctype": "informal"
-        },
-        "I promise it won’t happen again": {
-            "radioname": "6",
-            "showtext": "I promise it won’t happen again",
-            "ctype": "informal"
-        },
-        "I’m sorry, but I can’t make it to the meeting.": {
-            "radioname": "6",
-            "showtext": "I’m sorry, but I can’t make it to the meeting.",
-            "ctype": "informal"
-        }
-    },
-    "attachment": {
-        "cname": "ATTACHING FILES",
+, "complaint":[{
+                "cname": "COMPLAINING"
+            },
 
-        "I am attaching my CV for your consideration.": {
-            "radioname": "7",
-            "showtext": "I am attaching my CV for your consideration.",
-            "ctype": "formal"
-        },
-        "I am sending you the brochure as an attachment.": {
-            "radioname": "7",
-            "showtext": "I am sending you the brochure as an attachment.",
-            "ctype": "formal"
-        },
-        "Please see the statement attached.": {
-            "radioname": "7",
-            "showtext": "Please see the statement attached.",
-            "ctype": "formal"
-        },
-        "Please find attached the file you requested.": {
-            "radioname": "7",
-            "showtext": "Please find attached the file you requested.",
-            "ctype": "formal"
-        },
-        "I am afraid I cannot open the file you have sent me.": {
-            "radioname": "7",
-            "showtext": "I am afraid I cannot open the file you have sent me.",
-            "ctype": "formal"
-        },
-        "Could you send it again in … format?": {
-            "radioname": "7",
-            "showtext": "Could you send it again in … format?",
-            "ctype": "formal"
-        },
-        "I’m attaching/sending you the holiday photos.": {
-            "radioname": "7",
-            "showtext": "I’m attaching/sending you the holiday photos.",
-            "ctype": "informal"
-        },
-        "Sorry, but I can’t open it. Can you send it again in … format?": {
-            "radioname": "7",
-            "showtext": "Sorry, but I can’t open it. Can you send it again in … format?",
-            "ctype": "informal"
-        }
-    },
-    "ending": {
-        "cname": "ENDING",
+            {
+                "radioname": "5",
+                "val": "I am writing to express my dissatisfaction with… / to complain about…",
+                "showtext": "I am writing to express my dissatisfaction with… / to complain about…",
+                "ctype": "formal"
+            }, {
+                "radioname": "5",
+                "val": "I regret to say that I was not completely satisfied with the room you provided us.",
+                "showtext": "I regret to say that I was not completely satisfied with the room you provided us.",
+                "ctype": "formal"
+            }, {
+                "radioname": "5",
+                "val": "We regret to inform you that your payment is considerably overdue.",
+                "showtext": "We regret to inform you that your payment is considerably overdue.",
+                "ctype": "formal"
+            }, {
+                "radioname": "5",
+                "val": "I would like to receive a full refund and compensation for the damages.",
+                "showtext": "I would like to receive a full refund and compensation for the damages.",
+                "ctype": "formal"
+            }, {
+                "radioname": "5",
+                "val": "I am interested to hear how your company can compensate us for the distress we suffered.",
+                "showtext": "I am interested to hear how your company can compensate us for the distress we suffered.",
+                "ctype": "formal"
+            }, {
+                "radioname": "5",
+                "val": "I’m sorry to say that you’re late with the payments.",
+                "showtext": "I’m sorry to say that you’re late with the payments.",
+                "ctype": "informal"
+            }, {
+                "radioname": "5",
+                "val": "I hope you won’t mind me saying that the place you’d recommended to us wasn’t as nice as we’d expected.",
+                "showtext": "I hope you won’t mind me saying that the place you’d recommended to us wasn’t as nice as we’d expected.",
+                "ctype": "informal"
+            }
+        ]
+, "apology":[{
+                "cname": "APOLOGIZING"
+            },
 
-        "I look forward to hearing from you.": {
-            "radioname": "8",
-            "showtext": "I look forward to hearing from you.",
-            "ctype": "formal"
-        },
-        "I look forward to hearing when you are planning to visit our town.": {
-            "radioname": "8",
-            "showtext": "I look forward to hearing when you are planning to visit our town.",
-            "ctype": "formal"
-        },
-        "Hope to hear from you soon.": {
-            "radioname": "8",
-            "showtext": "Hope to hear from you soon.",
-            "ctype": "informal"
-        },
-        "I’m looking forward to seeing you.": {
-            "radioname": "8",
-            "showtext": "I’m looking forward to seeing you.",
-            "ctype": "informal"
-        }
-    },
-    "closing": {
-        "cname": "CLOSING FORMULA",
+            {
+                "radioname": "6",
+                "val": "We would like to apologize for any inconvenience caused.",
+                "showtext": "We would like to apologize for any inconvenience caused.",
+                "ctype": "formal"
+            }, {
+                "radioname": "6",
+                "val": "Please accept our apologies for the delay.",
+                "showtext": "Please accept our apologies for the delay.",
+                "ctype": "formal"
+            }, {
+                "radioname": "6",
+                "val": "Please let us know what we can do to compensate you for the damages caused.",
+                "showtext": "Please let us know what we can do to compensate you for the damages caused.",
+                "ctype": "formal"
+            }, {
+                "radioname": "6",
+                "val": "We will make sure that this will not happen again in the  future.",
+                "showtext": "We will make sure that this will not happen again in the  future.",
+                "ctype": "formal"
+            }, {
+                "radioname": "6",
+                "val": "I am afraid I will not be able to attend the conference.",
+                "showtext": "I am afraid I will not be able to attend the conference.",
+                "ctype": "formal"
+            }, {
+                "radioname": "6",
+                "val": "I’m sorry for the trouble I caused.",
+                "showtext": "I’m sorry for the trouble I caused.",
+                "ctype": "informal"
+            }, {
+                "radioname": "6",
+                "val": "I apologize for the delay.",
+                "showtext": "I apologize for the delay.",
+                "ctype": "informal"
+            }, {
+                "radioname": "6",
+                "val": "I promise it won’t happen again",
+                "showtext": "I promise it won’t happen again",
+                "ctype": "informal"
+            }, {
+                "radioname": "6",
+                "val": "I’m sorry, but I can’t make it to the meeting.",
+                "showtext": "I’m sorry, but I can’t make it to the meeting.",
+                "ctype": "informal"
+            }
+        ]
+, "attachment":[{
+                "cname": "ATTACHING FILES"
+            },
 
-        "Yours faithfully,": {
-            "radioname": "9",
-            "showtext": "Yours faithfully, (when you start with Dear Sir/ Madam,)",
-            "ctype": "formal"
-        },
-        "Yours sincerely,": {
-            "radioname": "9",
-            "showtext": "Yours sincerely, (when you start with the name e.g. Dear Ms Collins)",
-            "ctype": "formal"
-        },
-        "Sincerely Yours, ": {
-            "radioname": "9",
-            "showtext": "Sincerely Yours, (AmE)",
-            "ctype": "formal"
-        },
-        "Sincerely,": {
-            "radioname": "9",
-            "showtext": "Sincerely, (AmE)",
-            "ctype": "formal"
-        },
-        "Yours Truly,": {
-            "radioname": "9",
-            "showtext": "Yours Truly, (AmE)",
-            "ctype": "formal"
-        },
-        "Love,": {
-            "radioname": "9",
-            "showtext": "Love,",
-            "ctype": "informal"
-        },
-        "Thanks,": {
-            "radioname": "9",
-            "showtext": "Thanks,",
-            "ctype": "informal"
-        },
-        "Take care,": {
-            "radioname": "9",
-            "showtext": "Take care,",
-            "ctype": "informal"
-        },
-        "Yours,": {
-            "radioname": "9",
-            "showtext": "Yours,",
-            "ctype": "informal"
-        },
-        "Best regards, ": {
-            "radioname": "9",
-            "showtext": "Best regards, (semi-formal, also BR)",
-            "ctype": "informal"
-        }
+            {
+                "radioname": "7",
+                "val": "I am attaching my CV for your consideration.",
+                "showtext": "I am attaching my CV for your consideration.",
+                "ctype": "formal"
+            }, {
+                "radioname": "7",
+                "val": "I am sending you the brochure as an attachment.",
+                "showtext": "I am sending you the brochure as an attachment.",
+                "ctype": "formal"
+            }, {
+                "radioname": "7",
+                "val": "Please see the statement attached.",
+                "showtext": "Please see the statement attached.",
+                "ctype": "formal"
+            }, {
+                "radioname": "7",
+                "val": "Please find attached the file you requested.",
+                "showtext": "Please find attached the file you requested.",
+                "ctype": "formal"
+            }, {
+                "radioname": "7",
+                "val": "I am afraid I cannot open the file you have sent me.",
+                "showtext": "I am afraid I cannot open the file you have sent me.",
+                "ctype": "formal"
+            }, {
+                "radioname": "7",
+                "val": "Could you send it again in … format?",
+                "showtext": "Could you send it again in … format?",
+                "ctype": "formal"
+            }, {
+                "radioname": "7",
+                "val": "I’m attaching/sending you the holiday photos.",
+                "showtext": "I’m attaching/sending you the holiday photos.",
+                "ctype": "informal"
+            }, {
+                "radioname": "7",
+                "val": "Sorry, but I can’t open it. Can you send it again in … format?",
+                "showtext": "Sorry, but I can’t open it. Can you send it again in … format?",
+                "ctype": "informal"
+            }
+        ]
+, "ending":[{
+                "cname": "ENDING"
+            },
+
+            {
+                "radioname": "8",
+                "val": "I look forward to hearing from you.",
+                "showtext": "I look forward to hearing from you.",
+                "ctype": "formal"
+            }, {
+                "radioname": "8",
+                "val": "I look forward to hearing when you are planning to visit our town.",
+                "showtext": "I look forward to hearing when you are planning to visit our town.",
+                "ctype": "formal"
+            }, {
+                "radioname": "8",
+                "val": "Hope to hear from you soon.",
+                "showtext": "Hope to hear from you soon.",
+                "ctype": "informal"
+            }, {
+                "radioname": "8",
+                "val": "I’m looking forward to seeing you.",
+                "showtext": "I’m looking forward to seeing you.",
+                "ctype": "informal"
+            }
+        ]
+, "closing":[{
+                "cname": "CLOSING FORMULA"
+            },
+
+            {
+                "radioname": "9",
+                "val": "Yours faithfully,",
+                "showtext": "Yours faithfully, (when you start with Dear Sir/ Madam,)",
+                "ctype": "formal"
+            }, {
+                "radioname": "9",
+                "val": "Yours sincerely,",
+                "showtext": "Yours sincerely, (when you start with the name e.g. Dear Ms Collins)",
+                "ctype": "formal"
+            }, {
+                "radioname": "9",
+                "val": "Sincerely Yours, ",
+                "showtext": "Sincerely Yours, (AmE)",
+                "ctype": "formal"
+            }, {
+                "radioname": "9",
+                "val": "Sincerely,",
+                "showtext": "Sincerely, (AmE)",
+                "ctype": "formal"
+            }, {
+                "radioname": "9",
+                "val": "Yours Truly,",
+                "showtext": "Yours Truly, (AmE)",
+                "ctype": "formal"
+            }, {
+                "radioname": "9",
+                "val": "Love,",
+                "showtext": "Love,",
+                "ctype": "informal"
+            }, {
+                "radioname": "9",
+                "val": "Thanks,",
+                "showtext": "Thanks,",
+                "ctype": "informal"
+            }, {
+                "radioname": "9",
+                "val": "Take care,",
+                "showtext": "Take care,",
+                "ctype": "informal"
+            }, {
+                "radioname": "9",
+                "val": "Yours,",
+                "showtext": "Yours,",
+                "ctype": "informal"
+            }, {
+                "radioname": "9",
+                "val": "Best regards, ",
+                "showtext": "Best regards, (semi-formal, also BR)",
+                "ctype": "informal"
+
+            }
+        ]
     }
-}
