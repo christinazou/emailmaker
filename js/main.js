@@ -3,17 +3,25 @@ $(document).ready(function() {
         var $jsondiv = $(".test");
         var strHtml = "";
         $.each(data, function(index, catagoryarray) {
-            strHtml = strHtml + "index: " + index;
+            strHtml = strHtml + "<div class=" + "'" + index + "'>";
             $.each(catagoryarray, function(i, sentenceobject) {
-                strHtml = strHtml + "index: " + i + "value: " + sentenceobject;
-                if (typeof sentenceobject != "string") {
+                // strHtml = strHtml + "index: " + i + "value: " + sentenceobject;
+                if (typeof sentenceobject == "string") {
+                    strHtml = strHtml + "<h3>" + sentenceobject + "</h3>";
+                } else {
+                    strHtml = strHtml + "<ul>";
                     $.each(sentenceobject, function(j, value) {
-                        strHtml = strHtml + "index: " + j + "value: " + value;
+                        strHtml = strHtml + "<li>" +  "<input type='radio' name='"+value.radioname+" id="+j+" value="+j+" class='"+value.ctype+"' /><label for="+j+">"+value.showtext+"</label>" + "</li>";
 
+
+
+                        //  strHtml = strHtml + "index: " + j + "value: " + value;
                         // body...
                     })
+                    strHtml = strHtml + "</ul>";
                 }
             })
+            strHtml = strHtml + "</div>";
         })
         $jsondiv.empty();
         $jsondiv.html(strHtml);
@@ -67,18 +75,12 @@ $(document).ready(function() {
                 etxt = etxt + $("input[name=1]:checked").val() + "\n\n"
             }
         }
-        if ($("input[name=2]:checked").val() !== undefined) {
-            etxt = etxt + $("input[name=2]:checked").val()
-        }
-        if ($("input[name=3]:checked").val() !== undefined) {
-            etxt = etxt + $("input[name=3]:checked").val()
-        }
-        if ($("input[name=4]:checked").val() !== undefined) {
-            etxt = etxt + $("input[name=4]:checked").val()
-        }
-        if ($("input[name=5]:checked").val() !== undefined) {
-            etxt = etxt + $("input[name=4]:checked").val()
-        }
+
+        for (var i = 2; i >= 8; i++) {
+            if ($("input[name=i]:checked").val() !== undefined) {
+                etxt = etxt + $("input[name=i]:checked").val()
+            }
+        };
         if ($("input[name=6]:checked").val() !== undefined) {
             etxt = etxt + "\n\n" + $("input[name=5]:checked").val()
         }
