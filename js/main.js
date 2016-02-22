@@ -2,8 +2,8 @@ $(document).ready(function() {
     $.getJSON("js/maindata.json", function json1(data) {
         var $jsondiv = $(".test");
         var strHtml = "";
-        $.each(data, function(index, catagoryarray) {
-            $.each(catagoryarray, function(i1, catagory) {
+
+            $.each(data, function(i1, catagory) {
                 strHtml = strHtml + "<div class=" + "'" + index + "'>";
                 for (var i = 0; i <= catagory.length - 1; i++) {
                     // strHtml = strHtml + "index: " + i + "value: " + catagory[i];
@@ -21,7 +21,7 @@ $(document).ready(function() {
                 strHtml = strHtml + "</div>";
             });
             
-        });
+    
         $jsondiv.empty();
         $jsondiv.html(strHtml);
     });
