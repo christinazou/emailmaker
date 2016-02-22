@@ -8,10 +8,11 @@ $(document).ready(function() {
                 strHtml = strHtml + "index: " + i + "value: " + sentenceobject;
                 if (typeof sentenceobject !== "String") {
                     $.each(sentenceobject, function(j, value) {
-                            strHtml = strHtml + "index: " + j + "value: " + value;
-                        }
+                        strHtml = strHtml + "index: " + j + "value: " + value;
+
                         // body...
                     })
+                }
             })
         })
         $jsondiv.empty();
