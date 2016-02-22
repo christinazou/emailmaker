@@ -5,7 +5,7 @@ $(document).ready(function() {
         $.each(data, function(index, catagoryarray) {
             $.each(data, function(i1, catagory) {
                 strHtml = strHtml + "<div class=" + "'" + index + "'>";
-                for (var i = 0; i >= catagory.length - 1; i++) {
+                for (var i = 0; i <= catagory.length - 1; i++) {
                     // strHtml = strHtml + "index: " + i + "value: " + catagory[i];
                     if (i = 0) {
                         strHtml = strHtml + "<h3>" + catagory[i].cname + "</h3>";
