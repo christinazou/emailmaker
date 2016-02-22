@@ -5,10 +5,10 @@ $(document).ready(function() {
         $.each(data, function(i1, catagory) {
             items.push("<div class=" + "'" + i1 + "'>");
             $(function() {
-        $("."+li +" h3").bind("click", function() {
-            $("."+li +" ul").toggle("slow");
-        });
-    });
+                $("."+i1 +" h3").bind("click", function() {
+                $("."+i1 +" ul").toggle("slow");
+                });
+            });
             for (var i = 0; i <= catagory.length - 1; i++) {
                 var x = catagory[i];
                 // strHtml = strHtml + "index: " + i + "value: " + catagory[i];
