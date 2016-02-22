@@ -7,7 +7,7 @@ $(document).ready(function() {
             for (var i = 0; i <= catagory.length - 1; i++) {
                 var x = catagory[i];
                 // strHtml = strHtml + "index: " + i + "value: " + catagory[i];
-                if (i = 0) {
+                if (i == 0) {
                     items.push("<h3>" + x.cname + "</h3>");
                     items.push("<ul>");
                 } else if (i > 0 && i < catagory.length - 1) {
