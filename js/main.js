@@ -11,15 +11,16 @@ $(document).ready(function() {
                         strHtml = strHtml + "<h3>" + catagory[i].cname + "</h3>";
                         strHtml = strHtml + "<ul>";
                     } else if (i < catagory.length - 1) {
-                        strHtml = strHtml + "<li>" + "<input type='radio' name='" + catagory[i].radioname + " id=" + j + " catagory[i]=" + j + " class='" + catagory[i].ctype + "' /><label for=" + j + ">" + catagory[i].showtext + "</label>" + "</li>";
+                        strHtml = strHtml + "<li>" + "<input type='radio' name='" + catagory[i].radioname + " id=" + catagory[i].val + " catagory[i]=" + catagory[i].val + " class='" + catagory[i].ctype + "' /><label for=" + catagory[i].val + ">" + catagory[i].showtext + "</label>" + "</li>";
                         //  strHtml = strHtml + "index: " + j + "value: " + value;
                         // body...
                     } else {
                         strHtml = strHtml + "</ul>";
                     };
                 };
+                strHtml = strHtml + "</div>";
             });
-            strHtml = strHtml + "</div>";
+            
         });
         $jsondiv.empty();
         $jsondiv.html(strHtml);
