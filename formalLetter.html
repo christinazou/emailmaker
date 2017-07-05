@@ -1,0 +1,199 @@
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Emailmaker by christinazou</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="stylesheets/reset.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="stylesheets/afterReset.css" media="screen" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    if (!window.jQuery) {
+    document.write('<script src="lib/jquery.min.js"><\/script>')
+    }
+    </script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/jsonoperater.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <!--      <li><input type="radio" name="6" id="" value="" /><label for=""></label></li> -->
+    
+    <div class="navbar">
+      <a href="./home.html">Home</a>
+      <a href="./formalLetter.html">Formal letter</a>
+      <a href="./informalLetter.html">Informal letter</a>
+    </div>
+    <div class="emailcontainer">
+      <textarea id="email"> </textarea>
+      <input type="button" id="select_all_btn" value="select all" />
+      <input type="button" id="clear_all_btn" value="clear all" />
+    </div>
+    
+
+    <div class="selectcontainer">
+
+      <div class="address">
+        <div class="from">
+          <label class="control-label">from:</label>
+          <input type="input" class="firstname" placeholder="first name"/>
+          <input type="input"  class="lastname" placeholder="last name"/>
+        </div>
+        <div class="to">
+          <label class="control-label">to:</label>
+          <input type="input" class="firstname" placeholder="first name"/>
+          <input type="input"  class="lastname" placeholder="last name"/>
+        </div>
+      </div>
+
+      <div class="greeting">
+        <h3 class="accordion-section-title">Greetings</h3>
+        <ul class="accordion-section-content">
+          <li>
+            <input type="radio" name="1" id="Dear Sir/ Madam," value="Dear Sir/ Madam," class = "noname" />
+            <label for="Dear Sir/ Madam,">Dear Sir/ Madam,</label>
+          </li>
+          <li>
+            <input type="radio" name="1" id="Dear Sir or Madam," value="Dear Sir or Madam," class = "noname" />
+            <label for="Dear Sir or Madam,">Dear Sir or Madam,</label>
+          </li>
+          <li>
+            <input type="radio" name="1" id="To whom it may concern:" value="To whom it may concern:" class = "noname"/>
+            <label for="To whom it may concern:">To whom it may concern: (especially AmE)</label>
+          </li>
+          <li>
+            <input type="radio" name="1" id="Dear Mr/ Ms" value="Dear Mr/ Ms" class="mustlastname" />
+            <label for="Dear Mr/ Ms">Dear Mr/ Ms,</label>
+          </li>
+          <li>
+            <input type="radio" name="1" id="Dear Dr" value="Dear Dr"  class="mustlastname"/>
+            <label for="Dear Dr">Dear Dr,</label>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="reason">
+        <h3 class="accordion-section-title" >Reason for writing / Replying</h3>
+        <ul class="accordion-section-content">
+          <li>
+            <input type="radio" name="2" id="I am writing to make a reservation/ to apply for the position of…/ to confirm my booking/ to ask for further information about …" value="I am writing to make a reservation/ to apply for the position of…/ to confirm my booking/ to ask for further information about …"
+            />
+            <label for="I am writing to make a reservation/ to apply for the position of…/ to confirm my booking/ to ask for further information about …">I am writing to make a reservation/ to apply for the position of…/ to confirm my booking/ to ask for further information about …</label>
+          </li>
+          <li>
+            <input type="radio" name="2" id="I am writing with regard to the sale of …/ to the complaint you made on 29th February" value="I am writing with regard to the sale of …/ to the complaint you made on 29th February" />
+            <label for="I am writing with regard to the sale of …/ to the complaint you made on 29th February">I am writing with regard to the sale of …/ to the complaint you made on 29th February</label>
+          </li>
+          <li>
+            <input type="radio" name="2" id="Thank you for your e-mail of 29th February regarding the sale of… / concerning the conference in Brussels." value="Thank you for your e-mail of 29th February regarding the sale of… / concerning the conference in Brussels."
+            />
+            <label for="Thank you for your e-mail of 29th February regarding the sale of… / concerning the conference in Brussels.">Thank you for your e-mail of 29th February regarding the sale of… / concerning the conference in Brussels.</label>
+          </li>
+          <li>
+            <input type="radio" name="2" id="With reference to our telephone conversation on Friday, I would like to let you know that…" value="With reference to our telephone conversation on Friday, I would like to let you know that…" />
+            <label for="With reference to our telephone conversation on Friday, I would like to let you know that…">With reference to our telephone conversation on Friday, I would like to let you know that…</label>
+          </li>
+        </ul>
+      </div>
+      <div class="requesting">
+        <h3 class="accordion-section-title">Making a request / Asking for information</h3>
+        <ul class="accordion-section-content">
+          <li>
+            <input type="radio" name="3" id="Could you please let me know if you can attend … / if you are available for a meeting on 12th December?" value="Could you please let me know if you can attend … / if you are available for a meeting on 12th December?" />
+            <label for="Could you please let me know if you can attend … / if you are available for a meeting on 12th December?">Could you please let me know if you can attend … / if you are available for a meeting on 12th December?</label>
+          </li>
+          <li>
+            <input type="radio" name="3" id="I would appreciate it if you could please send me a brochure/ if you could please reply within two days." value="I would appreciate it if you could please send me a brochure/ if you could please reply within two days."
+            />
+            <label for="I would appreciate it if you could please send me a brochure/ if you could please reply within two days.">I would appreciate it if you could please send me a brochure/ if you could please reply within two days.</label>
+          </li>
+          <li>
+            <input type="radio" name="3" id="I would appreciate it if you could please send me a brochure/ if you could please reply within two days." value="I would appreciate it if you could please send me a brochure/ if you could please reply within two days."
+            />
+            <label for="I would appreciate it if you could please send me a brochure/ if you could please reply within two days.">I would appreciate it if you could please send me a brochure/ if you could please reply within two days.</label>
+          </li>
+          <li>
+            <input type="radio" name="3" id="I would also like to know if there are any swimming pools in your area." value="I would also like to know if there are any swimming pools in your area." />
+            <label for="I would also like to know if there are any swimming pools in your area.">I would also like to know if there are any swimming pools in your area.</label>
+          </li>
+          <li>
+            <input type="radio" name="3" id="Please let me know how much the tickets cost." value="Please let me know how much the tickets cost." />
+            <label for="Please let me know how much the tickets cost.">Please let me know how much the tickets cost.</label>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="offering">
+        <h3 class="accordion-section-title">Offering help / Giving information</h3>
+        <ul class="accordion-section-content">
+          <li>
+            <input type="radio" name="4" id="We are happy to let you know that your article has been selected for publication." value="We are happy to let you know that your article has been selected for publication." />
+            <label for="We are happy to let you know that your article has been selected for publication.">We are happy to let you know that your article has been selected for publication.</label>
+          </li>
+          <li>
+            <input type="radio" name="4" id="I am glad to inform you that we will be holding our annual conference in Brussels on 20 September 2014.
+            " value="I am glad to inform you that we will be holding our annual conference in Brussels on 20 September 2014.
+            " />
+            <label for="I am glad to inform you that we will be holding our annual conference in Brussels on 20 September 2014.
+              ">I am glad to inform you that we will be holding our annual conference in Brussels on 20 September 2014.
+            </label>
+          </li>
+          <li>
+            <input type="radio" name="4" id="We regret to inform you that the show has been cancelled due to bad weather conditions.
+            " value="We regret to inform you that the show has been cancelled due to bad weather conditions.
+            " />
+            <label for="We regret to inform you that the show has been cancelled due to bad weather conditions.
+              ">We regret to inform you that the show has been cancelled due to bad weather conditions.
+            </label>
+          </li>
+          <li>
+            <input type="radio" name="4" id="We are willing to arrange another meeting with the CEO." value="We are willing to arrange another meeting with the CEO." />
+            <label for="We are willing to arrange another meeting with the CEO.">We are willing to arrange another meeting with the CEO.</label>
+          </li>
+          <li>
+            <input type="radio" name="4" id="We would be glad to send you another statement if necessary." value="We would be glad to send you another statement if necessary." />
+            <label for="We would be glad to send you another statement if necessary.">We would be glad to send you another statement if necessary.</label>
+          </li>
+          <li>
+            <input type="radio" name="4" id="Please do let me know if I can be of further assistance." value="Please do let me know if I can be of further assistance." />
+            <label for="Please do let me know if I can be of further assistance.">Please do let me know if I can be of further assistance.</label>
+          </li>
+          <li>
+            <input type="radio" name="4" id="Should you need any further information/assistance, please do not hesitate to contact us." value="Should you need any further information/assistance, please do not hesitate to contact us." />
+            <label for="Should you need any further information/assistance, please do not hesitate to contact us.">Should you need any further information/assistance, please do not hesitate to contact us.</label>
+          </li>
+        </ul>
+      </div>
+      <div class="ending">
+        <h3 class="accordion-section-title">Ending</h3>
+        <ul class="accordion-section-content">
+          <li>
+            <input type="radio" name="5" id="I look forward to hearing from you." value="I look forward to hearing from you." />
+            <label for="I look forward to hearing from you.">I look forward to hearing from you.</label>
+          </li>
+          <li>
+            <input type="radio" name="5" id="I look forward to hearing when you are planning to visit our town." value="I look forward to hearing when you are planning to visit our town." />
+            <label for="I look forward to hearing when you are planning to visit our town.">I look forward to hearing when you are planning to visit our town.</label>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="closing">
+        <h3 class="accordion-section-title">Closing formula</h3>
+        <ul class="accordion-section-content">
+          <li>
+            <input type="radio" name="6" id="Yours faithfully" value="Yours faithfully" />
+            <label for="Yours faithfully">Yours faithfully, (when you start with Dear Sir/ Madam,)</label>
+          </li>
+          <li>
+            <input type="radio" name="6" id="Yours sincerely," value="Yours sincerely," />
+            <label for="Yours sincerely,">Yours sincerely, (when you start with the name e.g. Dear Ms Collins)</label>
+          </li>
+          <li>
+            <input type="radio" name="6" id="Sincerely Yours," value="Sincerely Yours," />
+            <label for="Sincerely Yours,">Sincerely Yours, (AmE)</label>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </body>
+</html>

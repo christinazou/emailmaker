@@ -1,0 +1,16 @@
+todo 
+
+
+done
+1. 问候自动加名字(javascript switch statement)
+
+2. 名字首字母大写(javascript JavaScript String toUpperCase() Method)
+
+3. 自动保存
+	3.1	内容改变时保存（cookie faild to update data， tried localStorage, use sessionStorage)
+	3.2 退出网页时清空（changed to sessionStorage)
+
+4. 全部清空
+	4.1 输入框 (jquery val() Method)
+	4.2 清除缓存 sessionStorage（JavaScript sessionStorage clear() sessionStorage）
+	4.3 单选框input type＝radio (jquery removeAttr("checked") Method)
