@@ -13,6 +13,19 @@
 ga('create', 'UA-73419263-1', 'auto');
 ga('send', 'pageview');
 
+
+
+window._mfq = window._mfq || [];
+(function() {
+    var mf = document.createElement("script");
+    mf.type = "text/javascript";
+    mf.async = true;
+    mf.src = "//cdn.mouseflow.com/projects/cd73e9af-b8c1-4372-b2b4-bacc792e699b.js";
+    document.getElementsByTagName("head")[0].appendChild(mf);
+})();
+ga('create', 'UA-73419263-1', 'auto');
+ga('send', 'pageview');
+
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
@@ -193,7 +206,7 @@ $(document).ready(function() {
 
 
     $("#clear_all_btn").click(function() {
-         $("#email").val("");
+        $("#email").val("");
         $(".to>input,.from>input").val("");
         $('input[type = radio]').removeAttr("checked");
         sessionStorage.clear();
