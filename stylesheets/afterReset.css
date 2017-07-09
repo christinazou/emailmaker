@@ -53,12 +53,19 @@ h3.active:after {
 
 
 
-ul,label, input{
+label, input{
   margin: 4px;
+}
+ul{
+  margin: 4px,0px,4px,0px;
 }
 li {
   list-style-type: none;
   text-align: left;
+}
+li label{
+  display: block;
+  margin: 0px;
 }
 
 textarea {
@@ -82,6 +89,11 @@ input[type=input] {
 input[type=button] {background-color: #e7e7e7; color: black;}
 input[type=button]:hover {background: #ddd;}
 
+input[type=radio] {
+   margin-top: 8px;
+vertical-align:top;
+}
+
 span{
 font-size: 14px;
   font-family: "Open Sans", helvetica, sans-serif;
@@ -97,6 +109,15 @@ font-size: 14px;
 
 .navbar a {
   float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+a.navbarright {
+  float: right;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -142,6 +163,7 @@ font-size: 14px;
 }
 
 .greeting ul,
+.opening ul,
 .reason ul,
 .requesting ul,
 .offering ul,
@@ -164,9 +186,15 @@ font-size: 14px;
 }
 .control-label{
   display: inline-block;
-  width: 40px;
+  width: 50px;
   text-align: right;
   background: 
+}
+
+.labelformat{
+  display: inline-block;
+  margin: 4px;
+  max-width: 570px;
 }
 #informal_sample{
 

@@ -192,6 +192,9 @@ $(document).ready(function() {
         if ($("input[name = 6 ]:checked").val() !== undefined) {
             resultTxt = resultTxt + $("input[name = 6]:checked").val() + "\n\n";
         }
+                if ($("input[name = 7 ]:checked").val() !== undefined) {
+            resultTxt = resultTxt + $("input[name = 7]:checked").val() + "\n\n";
+        }
         if ($(".from").children(".firstname").val() !== null && $(".from").children(".firstname").val() !== "") {
             resultTxt = resultTxt + fromfirstname + "\n\n";
         }
