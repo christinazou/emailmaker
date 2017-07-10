@@ -12,7 +12,7 @@ done
 2. 名字首字母大写(javascript JavaScript String toUpperCase() Method)
 
 3. 自动保存
-	3.1	内容改变时保存（cookie faild to update data， tried localStorage, use sessionStorage)
+	3.1	名字改变时保存（cookie faild to update data， tried localStorage, use sessionStorage)
 	3.2 退出网页时清空（changed to sessionStorage)
 
 4. 全部清空
