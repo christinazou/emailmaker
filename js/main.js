@@ -196,7 +196,7 @@ $(document).ready(function() {
             resultTxt = resultTxt + $("input[name = 7]:checked").val() + "\n\n";
         }
         if ($(".from").children(".firstname").val() !== null && $(".from").children(".firstname").val() !== "") {
-            resultTxt = resultTxt + fromfirstname + "\n\n";
+            resultTxt = resultTxt + fromfirstname + " " + fromlastname +"\n\n";
         }
 
         $("#email").val(resultTxt);
