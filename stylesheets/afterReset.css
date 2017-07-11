@@ -8,6 +8,9 @@ select {
 body{
 }
 footer{
+
+vertical-align: baseline;
+ bottom: 0;
     margin: 0px auto;
     text-align:center;
     float:left;
@@ -18,7 +21,7 @@ margin:16px 8px 16px 0px;
 }
 
 h1{
-  margin: 40px 8px 40px 0;
+  margin: 60px 8px 60px 0;
   font-size: 40px;
   font-weight: 100;
 }
@@ -106,8 +109,13 @@ font-size: 14px;
  }
 
 .navbar {
+      list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ background-color: #222;
   overflow: hidden;
-  background-color: #333;
+
   width: 100%;
   margin-bottom: 4px;
 }
@@ -121,6 +129,9 @@ font-size: 14px;
   text-decoration: none;
   font-size: 17px;
 }
+.navbar a:hover {
+         background-color: #008CBA;
+}
 a.navbarright {
   float: right;
   display: block;
@@ -130,8 +141,14 @@ a.navbarright {
   text-decoration: none;
   font-size: 17px;
 }
+.intro{
+  margin: 40px 8px 40px 0;
 
+font-family: "Open Sans", helvetica, sans-serif;
+
+}
 .card {
+  font-size: 18px;
     display: inline-block;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
