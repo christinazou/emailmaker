@@ -18,209 +18,221 @@
     <!--      <li><input type="radio" name="6" id="" value="" />  <div class="labelformat">
     <label for=""></label></li> -->
     
-         <!-- Start Navigation -->
-        <div class="navbar">
-            <a href="./index.html">Home</a>
-            <a href="./formalLetter.html">Formal letter</a>
-            <a href="./informalLetter.html">Informal letter</a>
-              <a class="navbarright" href="./informalwithchinese.html">中文版</a>
-        </div>
-        <!-- End Navigation -->
-        
+    <!-- Start Navigation -->
+    <div class="navbar">
+      <a href="./index.html">首页/Home</a>
+      <a href="./formalwithchinese.html">正式邮件/Formal letter</a>
+      <a href="./informalwithchinese.html">非正式邮件/Informal letter</a>
+      <a class="navbarright" href="./informalLetter.html">English</a>
+    </div>
+    <!-- End Navigation -->
+    
     <div class="emailcontainer">
       <textarea id="email"> </textarea>
       <input type="button" id="select_all_btn" value="select all" />
       <input type="button" id="clear_all_btn" value="clear all" />
     </div>
 
-
-
     <div class="selectcontainer">
-
-    <div class="address">
+      <div class="address">
         <div class="from">
-          <label class="control-label">from:</label>
-          <input type="input" class="firstname" placeholder="first name"/>
-          <input type="input"  class="lastname" placeholder="last name"/>
+          <label class="control-label">发信人:</label>
+          <input type="input" class="firstname" placeholder="名"/>
+          <input type="input"  class="lastname" placeholder="姓"/>
         </div>
         <div class="to">
-          <label class="control-label">to:</label>
-          <input type="input" class="firstname" placeholder="first name"/>
-          <input type="input"  class="lastname" placeholder="last name"/>
+          <label class="control-label">收信人:</label>
+          <input type="input" class="firstname" placeholder="名"/>
+          <input type="input"  class="lastname" placeholder="姓"/>
         </div>
-      </div>
+        </div>
 
 
-
-      <div class="greeting">
-        <h3 class="accordion-section-title">Greetings</h3>
+        <div class="greeting">
+               <h3 class="accordion-section-title">问候 Greetings</h3>
           <ul class="accordion-section-content">
             <li>
               <input type="radio" name="1" id="Hi" value="Hi" class="needfirstname"/>
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="Hi">嗨，</label>
                 <label for="Hi">Hi,</label>
-                </div>
+              </div>
             </li>
             <li>
               <input type="radio" name="1" id="Hello" value="Hello" class="needfirstname" />
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="Hello">你好，</label>
                 <label for="Hello">Hello,</label>
-                </div>
+              </div>
             </li>
             <li>
               <input type="radio" name="1" id="Dear" value="Dear" class="mustfirstname" />
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="Hello">亲爱的xxx，</label>
                 <label for="Dear">Dear,</label>
-                </div>
+              </div>
             </li>
           </ul>
         </div>
-
-      <div class="reason">
-        <h3 class="accordion-section-title">Reason for writing / Replying</h3>
+        <div class="reason">
+            <h3 class="accordion-section-title" >开场/自我介绍 Opening/Self－introduction</h3>
           <ul class="accordion-section-content">
             <li>
               <input type="radio" name="2" id="Just a quick note to invite you to…/ to tell you that…" value="Just a quick note to invite you to…/ to tell you that…" />
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="Just a quick note to invite you to…/ to tell you that…">只是想邀请你... /告诉你......</label>
                 <label for="Just a quick note to invite you to…/ to tell you that…">Just a quick note to invite you to…/ to tell you that…</label>
-                </div>
+              </div>
             </li>
             <li>
               <input type="radio" name="2" id="This is to invite you to join us for..." value="This is to invite you to join us for... "/>
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="This is to invite you to join us for...">这请您参加...的邀请</label>
                 <label for="This is to invite you to join us for...">This is to invite you to join us for...</label>
-                </div>
+              </div>
             </li>
             <li>
               <input type="radio" name="2" id="Thanks for your e-mail, it was wonderful/great to hear from you." value="Thanks for your e-mail, it was wonderful/great to hear from you." />
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="Thanks for your e-mail, it was wonderful/great to hear from you.">谢谢你的邮件，听到你的消息太好了／太棒了。</label>
                 <label for="Thanks for your e-mail, it was wonderful/great to hear from you.">Thanks for your e-mail, it was wonderful/great to hear from you.</label>
-                </div>
+              </div>
             </li>
             <li>
               <input type="radio" name="2" id="I wanted to let you know that / tell you about / ask you if…" value="I wanted to let you know that / tell you about / ask you if…" />
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="I wanted to let you know that / tell you about / ask you if…">我只是想让你知道.../告诉你.../问问你愿不愿意...</label>
                 <label for="I wanted to let you know that / tell you about / ask you if…">I wanted to let you know that / tell you about / ask you if…</label>
-                </div>
+              </div>
             </li>
           </ul>
-      </div>
-
-      <div class="requesting">
-        <h3 class="accordion-section-title">Making a request / Asking for information</h3>
+        </div>
+        <div class="requesting">
+          <h3 class="accordion-section-title">提出要求/要求信息 Making a request / Asking for information</h3>
           <ul class="accordion-section-content">
             <li>
               <input type="radio" name="3" id="I was wondering if you could come and see me sometime next week." value="I was wondering if you could come and see me sometime next week." />
-                <div class="labelformat">
-                <label for="I was wondering if you could come and see me sometime next week.">I was wondering if you could come and see me sometime next week.</label>
-                </div>
+              <div class="labelformat">
+                <label for="I was wondering if you could come and see me sometime next week.">我在想，你下周能不能过来和聚一下。</label>
+              </div>
             </li>
             <li>
               <input type="radio" name="3" id="Would you mind coming early to help me clear up the place?" value="Would you mind coming early to help me clear up the place?" />
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="Would you mind coming early to help me clear up the place?">你愿意早点过来帮我收拾一下吗？</label>
                 <label for="Would you mind coming early to help me clear up the place?">Would you mind coming early to help me clear up the place?</label>
-                </div>
+              </div>
             </li>
             <li>
               <input type="radio" name="3" id="Do you think you could call Jerry for me?" value="Do you think you could call Jerry for me?" />
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="Do you think you could call Jerry for me?">你可以帮我打电话给杰里吗？</label>
                 <label for="Do you think you could call Jerry for me?">Do you think you could call Jerry for me?</label>
-                </div>
+              </div>
             </li>
             <li>
               <input type="radio" name="3" id="Can you call me/ get back to me asap? (as soon as possible)" value="Can you call me/ get back to me asap? (as soon as possible)" />
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="Can you call me/ get back to me asap? (as soon as possible)">你能尽快给我回个电话／回信给我吗？</label>
                 <label for="Can you call me/ get back to me asap? (as soon as possible)">Can you call me/ get back to me asap? (as soon as possible)</label>
-                </div>
+              </div>
             </li>
           </ul>
-      </div>
-
-      <div class="offering">
-        <h3 class="accordion-section-title">Offering help / Giving information</h3>
+        </div>
+        <div class="offering">
+         <h3 class="accordion-section-title">提供帮助/提供信息 Offering help / Giving information</h3>
           <ul class="accordion-section-content">
             <li>
               <input type="radio" name="4" id="I’m sorry, but I can’t make it tomorrow." value="I’m sorry, but I can’t make it tomorrow." />
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="I’m sorry, but I can’t make it tomorrow.">抱歉，我明天去不了了</label>
                 <label for="I’m sorry, but I can’t make it tomorrow.">I’m sorry, but I can’t make it tomorrow.</label>
-                </div>
+              </div>
             </li>
             <li>
               <input type="radio" name="4" id="I’m happy to tell you that John and I are getting married next month." value="I’m happy to tell you that John and I are getting married next month." />
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="I’m happy to tell you that John and I are getting married next month.">我很高兴地告诉你，约翰和我下个月要结婚了。</label>
                 <label for="I’m happy to tell you that John and I are getting married next month.">I’m happy to tell you that John and I are getting married next month.</label>
-                </div>
+              </div>
             </li>
             <li>
               <input type="radio" name="4" id="Would you like me to come early and help you clear up the place?" value="Would you like me to come early and help you clear up the place?" />
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="Would you like me to come early and help you clear up the place?">我早点来帮你收拾好不好？</label>
                 <label for="Would you like me to come early and help you clear up the place?">Would you like me to come early and help you clear up the place?</label>
-                </div>
+              </div>
             </li>
             <li>
               <input type="radio" name="6" id="How about I come and help you out?" value="How about I come and help you out?" />
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="How about I come and help you out?">我来帮你怎么样？</label>
                 <label for="How about I come and help you out?">How about I come and help you out?</label>
-                </div>
+              </div>
             </li>
             <li>
               <input type="radio" name="6" id="Do you need a hand with moving the furniture?" value="Do you need a hand with moving the furniture?" />
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="Do you need a hand with moving the furniture?">你需要帮忙搬家具吗?</label>
                 <label for="Do you need a hand with moving the furniture?">Do you need a hand with moving the furniture?</label>
-                </div>
+              </div>
             </li>
           </ul>
-      </div>
-
-      <div class="ending">
-        <h3 class="accordion-section-title">Ending</h3>
+        </div>
+        <div class="ending">
+         <h3 class="accordion-section-title">结束语 Ending</h3>
           <ul class="accordion-section-content">
             <li>
               <input type="radio" name="5" id="Hope to hear from you soon." value="Hope to hear from you soon." />
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="Hope to hear from you soon.">希望早日收到你的消息。</label>
                 <label for="Hope to hear from you soon.">Hope to hear from you soon.</label>
-                </div>
+              </div>
             </li>
             <li>
               <input type="radio" name="5" id="I’m looking forward to seeing you." value="I’m looking forward to seeing you." />
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="I’m looking forward to seeing you.">翘首以待。</label>
                 <label for="I’m looking forward to seeing you.">I’m looking forward to seeing you.</label>
-                </div>
+              </div>
             </li>
           </ul>
-      </div>
-
-      <div class="closing">
-        <h3 class="accordion-section-title">Closing formula</h3>
+        </div>
+        <div class="closing">
+        <h3 class="accordion-section-title">结尾致意Closing formula</h3>
           <ul class="accordion-section-content">
             <li>
               <input type="radio" name="6" id="Love," value="Love," />
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="Love,">爱你的,</label>
                 <label for="Love,">Love,</label>
-                </div>
+              </div>
             </li>
             <li>
               <input type="radio" name="6" id="Thanks," value="Thanks," />
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="Thanks,">消息,</label>
                 <label for="Thanks,">Thanks,</label>
-                </div>
+              </div>
             </li>
             <li>
               <input type="radio" name="6" id="Take care," value="Take care," />
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="Take care,">保重,</label>
                 <label for="Take care,">Take care,</label>
-                </div>
+              </div>
             </li>
             <li>
               <input type="radio" name="6" id="Yours," value="Yours," />
-                <div class="labelformat">
+              <div class="labelformat">
+                <label for="Yours,">此致,</label>
                 <label for="Yours,">Yours,</label>
-                </div>
+              </div>
             </li>
           </ul>
-      
+          
+        </div>
       </div>
-    </div>
-            <footer> Christinazou@2017 </footer>
+    <footer> Christinazou@2017 </footer>
   </body>
 </html>
