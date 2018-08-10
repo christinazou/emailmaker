@@ -26,6 +26,7 @@ window._mfq = window._mfq || [];
 ga('create', 'UA-73419263-1', 'auto');
 ga('send', 'pageview');
 
+
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
@@ -34,20 +35,22 @@ function capitalizeFirstLetter(string) {
 
 $(document).ready(function() {
 
-    //retain data between redirect
+    // sessions 
+    // load from sessions
     sessionStorage['myKey'] = 'somestring';
     $(".to").children(".firstname").val(sessionStorage["tofirstname"]);
     $(".to").children(".lastname").val(sessionStorage["tolastname"]);
     $(".from").children(".firstname").val(sessionStorage["fromfirstname"]);
     $(".from").children(".lastname").val(sessionStorage["fromlastname"]);
 
-
+    // save to sessions
     $(".to>input,.from>input").change(function() {
         sessionStorage["tofirstname"] = $(".to").children(".firstname").val();
         sessionStorage["tolastname"] = $(".to").children(".lastname").val();
         sessionStorage["fromfirstname"] = $(".from").children(".firstname").val();
         sessionStorage["fromlastname"] = $(".from").children(".lastname").val();
     });
+    //sessions end
 
     //accordion
     function close_accordion_section() {
@@ -67,6 +70,7 @@ $(document).ready(function() {
             $(currentAttrValue).slideDown(300).addClass('open');
         }
     });
+    //accordion end
 
 
 
@@ -192,7 +196,7 @@ $(document).ready(function() {
         if ($("input[name = 6 ]:checked").val() !== undefined) {
             resultTxt = resultTxt + $("input[name = 6]:checked").val() + "\n\n";
         }
-                if ($("input[name = 7 ]:checked").val() !== undefined) {
+        if ($("input[name = 7 ]:checked").val() !== undefined) {
             resultTxt = resultTxt + $("input[name = 7]:checked").val() + "\n\n";
         }
         if ($(".from").children(".firstname").val() !== null && $(".from").children(".firstname").val() !== "") {

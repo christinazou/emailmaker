@@ -1,4 +1,6 @@
-
+*{
+  box-sizing: border-box;
+}
 
 body,
 input,
@@ -112,6 +114,8 @@ input[type=input] {
   width: 40px;
   text-align: right;
 }
+
+
 
 
 

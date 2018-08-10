@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body,
 input,
 textarea,
@@ -8,6 +12,7 @@ select {
 body{
    background-color: #FFFFFFFF;
 }
+
 footer{
 
 vertical-align: baseline;
@@ -17,6 +22,7 @@ vertical-align: baseline;
     float:left;
     width: 100%;
 }
+
 h1,h2,h3,h4,h5,h6,p {
 margin:16px 8px 16px 0px;
 }
@@ -48,6 +54,7 @@ h3{
 h3:hover ,h3.active{
     background-color: #ddd;
 }
+
 h3:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
@@ -60,18 +67,19 @@ h3.active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
-
-
 label, input{
   margin: 4px;
 }
+
 ul{
   margin: 4px 0px 4px 0px;
 }
+
 li {
   list-style-type: none;
   text-align: left;
 }
+
 li label{
   display: block;
   margin: 0px;
@@ -79,7 +87,7 @@ li label{
 
 textarea {
   font-size: 16px;
-  width: 95%;
+  width: 100%;
  min-height: 500px;
   border: 2px solid #ccc;
   border-radius: 4px;
@@ -181,8 +189,8 @@ font-family: "Open Sans", helvetica, sans-serif;
 .address{
   padding: 4px;
   margin:0px 0px 16px;
-      background-color: #eee;
-    color: #444;
+  background-color: #eee;
+  color: #444;
 }
 
 .greeting ul,
@@ -229,7 +237,16 @@ font-family: "Open Sans", helvetica, sans-serif;
 
      font-family:Georgia;
     background:LightSkyBlue ;
+}
 
+
+/* Responsive layout - 
+makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .main, .emailcontainer,.selectcontainer{
+
+  width: 100%;
+  float: left;
 }
 
 
